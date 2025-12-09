@@ -76,5 +76,4 @@ app.get("/", (c) => {
   return c.text("OK")
 })
 
-export const GET = handle(app)
-export const POST = handle(app)
+export default handle(app)
